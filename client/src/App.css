@@ -1,0 +1,39 @@
+body{
+  font-family: Arial, sans-serif;
+  background:#f4f4f4;
+  padding:20px;
+}
+
+nav{
+  background:#333;
+  padding:15px;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  margin-right:15px;
+}
+
+input,
+textarea,
+button{
+  width:100%;
+  max-width:500px;
+  padding:10px;
+  margin:10px 0;
+}
+
+button{
+  cursor:pointer;
+}
+
+h1,h2{
+  color:#333;
+}
+
+@media(max-width:768px){
+  nav{
+    text-align:center;
+  }
+}
